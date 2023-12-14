@@ -50,6 +50,7 @@ def main():
                 st.write("Error!Check the prompt or uploaded image")
 
     elif page=="Gemini Pro":
+        st.header("Ask Gemini")
         model = genai.GenerativeModel('gemini-pro')
         prompt=st.text_area("Enter your input")
         generate=st.button("Generate")
