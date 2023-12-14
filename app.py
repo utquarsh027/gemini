@@ -13,7 +13,7 @@ st.set_page_config(page_title="Generate story",
 
 def main():
     st.sidebar.title('Navigation')
-    page = st.sidebar.radio('Go to', ('Gemini Vision', 'Gemini Pro', 'Contact'))
+    page = st.sidebar.radio('Go to', ('Gemini Pro', 'Gemini Vision', 'Contact'))
 
     if page=="Gemini Vision":
         st.header("Gemini Vision")
